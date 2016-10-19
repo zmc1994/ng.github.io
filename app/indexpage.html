@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="qmgj">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<!-- inject:css -->
+  	<link rel="stylesheet" href="indexpage-a73e2e0b80.css">
+  	<!-- endinject -->
+</head>
+<body>
+	<header>
+		<span><img src="views/images/logo.png" alt="logo"></span>
+		<span><a ui-sref="home" class="homepage">首页</a></span>
+		<span>节目专栏</span>
+		<span>圈子</span>
+		<span><img src="views/images/search.png" alt=""></span>
+		<span><input type="text" placeholder="输入想要搜索的内容" class="search"></span>
+		<span><a ui-sref="login">登录</a></span>
+		<span><a ui-sref="regit">注册</a></span>
+	</header>
+	<div ui-view></div>
+	<footer>
+		<span>关于我们</span>
+		<span>用户协议</span>
+		<span>风险提示</span>
+		<span>联系我们</span>
+		<span><img src="views/images/logo2.png" alt="">&copy;2016</span>
+	</footer>
+
+	<!-- inject:js -->
+
+	<script src="indexpage-6a33bc74bf.js"></script>
+
+	<!-- endinject -->
+</body>
+</html>

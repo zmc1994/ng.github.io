@@ -1,0 +1,38 @@
+<div class="img1-top">
+    <img src="views/images/img1.png" alt="" class="img1">
+    <div class="img1-title">
+        <h1>&lt;&lt;晚秋&gt;&gt;再现舞台</h1>
+        <p>什么玩意乱七八糟看不清楚啦啦啦啦啦啦啦啦啦啦啦啦</p>
+        <p><a ui-sref="detail">查看项目</a></p>
+    </div>
+    <p class="title-left">&lt;</p>
+    <p class="title-right">&gt;</p>
+</div>
+<div>
+    <img src="views/images/hot.png" alt="" class="hot">
+</div>
+<div class="weishi">
+    <div class="weishititle">
+        <span>卫视主推</span>
+        <button type="button"><a ui-sref="list">查看全部</a></button>
+    </div>
+    <div class="weishiimg" ng-controller="homeController">
+        <span><img ng-src={{arr[0].img}} alt=""></span>
+        <span><img ng-src={{arr[1].img}} alt=""></span>
+        <span><img ng-src={{arr[2].img}} alt=""></span>
+    </div>
+</div>
+<div class="hezuo">
+    <h2>合作单位</h2>
+    <div class="imgshow" ng-controller="homeController">
+        <span><img ng-src={{arr[3].img}} alt=""></span>
+        <span><img ng-src={{arr[3].img}} alt=""></span>
+        <span><img ng-src={{arr[3].img}} alt=""></span>
+        <span><img ng-src={{arr[3].img}} alt=""></span>
+        <span><img ng-src={{arr[3].img}} alt=""></span>
+<!--         <span><img src="views/images/1.png" alt=""></span>
+        <span><img src="views/images/1.png" alt=""></span>
+        <span><img src="views/images/1.png" alt=""></span>
+        <span><img src="views/images/1.png" alt=""></span> -->
+    </div>
+</div>
